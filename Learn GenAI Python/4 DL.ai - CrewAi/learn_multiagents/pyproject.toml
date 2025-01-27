@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "learn_multiagents"
+version = "0.1.0"
+description = "learn-multiagents using crewAI"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13"
+crewai = {extras = ["tools"], version = "^0.28.8"}
+
+[tool.poetry.scripts]
+learn_multiagents = "learn_multiagents.main:run"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
