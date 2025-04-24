@@ -1,0 +1,18 @@
+Learnings needed
+
+Numpy
+
+Matplotlib
+
+Seaborn/ Bokeh
+
+Pandas
+
+Text processing including:
+    regular expression (re)
+    string formatting in print using f'Hello {name}. Sales have grown by {sales_growth:%.2}'
+
+Generating random numbers
+    floats
+    int
+    texts
